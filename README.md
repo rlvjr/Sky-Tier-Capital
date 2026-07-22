@@ -1,148 +1,166 @@
 <div align="center">
 
 # Sky Tier Capital
-## Enterprise IT Infrastructure Simulation
 
-<img src="https://img.shields.io/badge/Project-Active-brightgreen">
-<img src="https://img.shields.io/badge/Platform-Windows%20Server%202022-blue">
-<img src="https://img.shields.io/badge/Environment-VirtualBox-orange">
+## Enterprise IT Infrastructure Simulation
 
 </div>
 
 ---
-
-<div align="center">
 
 ## Project Overview
 
-</div>
+Sky Tier Capital is a simulated enterprise IT infrastructure environment created to demonstrate hands-on experience with Windows Server administration, system administration, networking concepts, and cybersecurity fundamentals.
 
-Sky Tier Capital is a simulated enterprise IT infrastructure environment designed to demonstrate real-world system administration, networking, and cybersecurity practices.
-
-This project represents the internal technology environment of a fictional financial trading organization requiring secure, reliable, and controlled IT operations.
-
-The goal of this lab is to demonstrate practical experience with:
-
-- Windows Server administration
-- Active Directory management
-- DNS configuration
-- Group Policy implementation
-- User and access management
-- IT documentation
-- Troubleshooting procedures
-- Security best practices
+The project represents the internal technology environment of a fictional financial trading organization requiring secure authentication, reliable infrastructure, controlled access, and proper IT documentation.
 
 ---
 
-<div align="center">
+## Project Objectives
+
+This lab was built to develop practical experience with:
+
+- Windows Server administration
+- Active Directory Domain Services
+- DNS configuration
+- Group Policy management
+- User and access management
+- Infrastructure documentation
+- Troubleshooting methodology
+- Security-focused administration
+
+---
 
 # Infrastructure Overview
 
-</div>
-
-<div align="center">
-
-| Component | Details |
+| Component | Configuration |
 |:---:|:---:|
 | Virtualization Platform | Oracle VirtualBox |
 | Server Operating System | Windows Server 2022 |
 | Domain Environment | SkyTierCapital.local |
 | Directory Services | Active Directory Domain Services |
-| DNS | Windows DNS Server |
-| Policy Management | Group Policy Objects |
-
-</div>
+| DNS Services | Windows DNS Server |
+| Policy Management | Group Policy Management |
 
 ---
 
-<div align="center">
-
 # Implemented Services
-
-</div>
 
 ## Active Directory
 
-Centralized identity and access management platform responsible for:
+Active Directory provides centralized identity and access management within the Sky Tier Capital domain environment.
 
-- User accounts
-- Security groups
-- Organizational Units
-- Authentication management
+Current implementation includes:
+
+- Domain Controller deployment
+- Domain authentication
+- Directory services configuration
 
 Documentation:
 
-[Active Directory](./Active_Directory)
+[Active Directory Setup](Documentation/Active_Directory_Setup.md)
 
 ---
 
 ## DNS
 
-Provides internal name resolution services required for domain functionality.
+DNS provides internal name resolution required for Active Directory communication and domain services.
 
 Documentation:
 
-[DNS](./DNS)
+[DNS Setup](Documentation/DNS_Setup.md)
 
 ---
 
 ## Group Policy
 
-Provides centralized configuration management for Windows systems.
+Group Policy Management provides centralized configuration capabilities for managing Windows environments.
+
+Current implementation includes:
+
+- Group Policy Management installation
+- Default domain policy availability
+
+Future configuration will include custom Group Policy Objects.
 
 Documentation:
 
-[Group Policies](./Group_Policies)
+[Group Policies](Documentation/Group_Policies.md)
 
 ---
 
-## Virtual Machine Setup
+## Virtual Machine Deployment
 
-Documents the initial deployment and configuration of the Windows Server environment.
+The environment was deployed using Oracle VirtualBox to create an isolated Windows Server testing environment.
 
 Documentation:
 
-[VM Setup](./VM_Setup)
+[Virtual Machine Setup](VM_Setup/README.md)
 
 ---
-
-<div align="center">
 
 # Documentation
 
-</div>
-
-Operational documentation includes:
+Technical documentation includes:
 
 - Asset Inventory
-- Incident Reports
+- Environment Overview
+- Server Specifications
+- Server Build Process
 - Troubleshooting Logs
-- Change Management
-- Security Policies
+- Infrastructure Documentation
+
+---
+
+# Project Status
+
+Completed:
+
+- Windows Server 2022 deployment
+- Active Directory Domain Services installation
+- Domain Controller promotion
+- DNS role installation
+- Group Policy Management installation
+- Infrastructure documentation
+
+In Progress:
+
+- Organizational Unit creation
+- User account management
+- Security group configuration
+- Custom Group Policy Objects
+- Domain-connected client systems
+
+---
+
+# Future Roadmap
+
+Planned improvements:
+
+- Create enterprise Organizational Units
+- Configure user accounts and permissions
+- Implement custom Group Policy Objects
+- Add Windows client machines
+- Expand troubleshooting scenarios
+- Add security hardening procedures
+- Document incident response workflows
+
+---
+
+# Skills Demonstrated
+
+This project demonstrates experience with:
+
+- Windows Server
+- Active Directory
+- DNS
+- Group Policy
+- Virtualization
+- System documentation
+- Troubleshooting processes
+- Enterprise infrastructure concepts
 
 ---
 
 <div align="center">
 
-# Project Roadmap
-
-</div>
-
-Future implementation:
-
-☐ Complete Active Directory deployment  
-☐ Create enterprise Organizational Units  
-☐ Configure user accounts and security groups  
-☐ Implement Group Policy Objects  
-☐ Join client machines to the domain  
-☐ Create troubleshooting scenarios  
-☐ Add security hardening procedures  
-☐ Document incident response workflows  
-
----
-
-<div align="center">
-
-
-
-Robert Veal
